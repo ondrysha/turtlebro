@@ -1,4 +1,4 @@
-##final2024bebra
+
 Присвоенное имя робота в сети:
 ```
 turtlebro55
@@ -52,4 +52,22 @@ cat/sys/firmware/devicetree/base/serial-number
 ```
 rostopic list
 ```
+Температура процессора в градусах (С):
+```
+vcgencmd measure_temp
+```
+module b2
+```
+grep "ошибка" master.log > error message.txt
+```
+from datetime import datetime
+def counter(time1, time2, times_format="%H:%M:%S"):
+    a1 = datetime.strptime(time1, times_format)
+    a2 = datetime.strptime(time2, times_format)
+    b = a2 - a1
+    return b
+time1 = "times"
+time2 = "times"
+c = counter(time1,time2)
+print("Разница во времени:",с)
 
