@@ -61,6 +61,8 @@ module b2
 ```
 grep "ошибка" master.log > error message.txt
 ```
+b2.2
+```
 from datetime import datetime
 def counter(time1, time2, times_format="%H:%M:%S"):
     a1 = datetime.strptime(time1, times_format)
