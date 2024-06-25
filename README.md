@@ -1,4 +1,5 @@
 
+
 Присвоенное имя робота в сети:
 ```
 turtlebro55
@@ -70,4 +71,4 @@ time1 = "times"
 time2 = "times"
 c = counter(time1,time2)
 print("Разница во времени:",с)
-
+```
