@@ -2,7 +2,7 @@
 
 Присвоенное имя робота в сети:
 ```
-turtlebro55
+turtlebroXX    
 ```
 IР-адрес робота в сети роутера-полигона:
 ```
@@ -47,7 +47,7 @@ timedatectl|grep "Time zone"
 ```
 Серийный номер Raspberry Pi 4:
 ```
-cat/sys/firmware/devicetree/base/serial-number
+cat /sys/firmware/devicetree/base/serial-number
 ```
 Топики из инструкции к роботу присутствуют на роботе:
 ```
@@ -57,7 +57,7 @@ rostopic list
 ```
 vcgencmd measure_temp
 ```
-module b2
+####МОДУЛЬ Б
 ```
 grep "ошибка" master.log > error message.txt
 ```
