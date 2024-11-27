@@ -57,7 +57,7 @@ rostopic list
 ```
 vcgencmd measure_temp
 ```
-####МОДУЛЬ Б
+**МОДУЛЬ Б**
 ```
 grep "ошибка" master.log > error message.txt
 ```
